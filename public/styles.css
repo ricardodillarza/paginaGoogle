@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: white;
+  height: 100px;
+  text-align: right;
+
+}
+
+header div {
+  margin-left: auto;
+  display: inline-block;
+  margin-right: 13px;
+  margin-top: 15px;
+}
+
+header img {
+  width: 2%;
+  padding: 0px 15px 0px 15px;
+  vertical-align: middle;
+}
+
+header a {
+  padding: 0px 0px 0px 15px;
+  font-size: 13px;
+  font-family: arial;
+  text-decoration: none;
+  color: rgba(0,0,0,0.87);
+}
+
+header button {
+  background-color: #4285f4;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px 12px;
+  color: white;
+  font-size: 13px;
+  font-family: arial;
+}
+
+.logo {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.logo img {
+  width: 272px;
+  height: 92px;
+}
+
+.input {
+  text-align:center;
+}
+
+.input-border {
+  border-radius: 30px;
+  margin: 10px auto;
+  width: 600px;
+  height: 50px;
+  box-shadow: 5px 5px 5px 5px lightgray;
+}
+
+.input input {
+  width: 88%;
+  height: 35px;
+  margin-top: 8px;
+  font-size: 20px;
+  border: none;
+}
+
+.input input:focus {
+  outline: none;
+}
+
+.input img {
+  vertical-align: middle;
+  width: 30px;
+  padding: 0 5px 8px 13px;
+}
+
+.botones {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.botones button {
+  background-color: #eaeaea;
+  color: rgba(0, 0, 0, .54);
+  padding: 10px 15px;
+  margin: 0 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor:pointer;
+}
+
+.botones button:hover {
+  border-color: darkgray;
+}
+
+.botones button:focus {
+  outline: none;
+}
+
+.google-mirror {
+  text-align: center;
+  margin-top: 30px;
+  font-family: arial;
+}
+
+.google-mirror a {
+  text-decoration: none;
+  color: black;
+  font-family: arial;
+}
+
+footer {
+  background-color: #f2f2f2;
+  border: 1px solid:gray;
+  position:absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+footer section {
+  padding: 8px 0;
+  background-color: #f2f2f2;
+  border: 1px solid lightgray;
+}
+
+footer section div {
+  display: inline-block;
+}
+
+footer section div:last-of-type {
+  float: right;
+}
+
+footer p {
+  margin-left: 10px;
+  font-size: 15px;
+  font-family: arial;
+  text-align: left;
+  color: rgba(0, 0, 0, .54);
+  padding: 5px;
+}
+
+footer a {
+  padding-top: 80px;
+  margin-left: 10px;
+  font-size: 15px;
+  font-family: arial;
+  text-align: left;
+  color: rgba(0, 0, 0, .54);
+  padding: 5px;
+  text-decoration: none;
+}
